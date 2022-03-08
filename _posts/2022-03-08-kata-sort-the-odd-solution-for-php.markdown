@@ -60,6 +60,6 @@ function sortArray(array $arr) : array {
   }, $arr);
 }
 ```
-[dfhwze profile](https://www.codewars.com/users/dfhwz)
+[Solver's Profile](https://www.codewars.com/users/dfhwz)
 
 Best practices and clever solution for sort the odd.
