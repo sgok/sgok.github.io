@@ -80,3 +80,27 @@ function validBraces($braces){
 [Solver's Profile](https://www.codewars.com/users/SergeyLevchuk)
 
 Best practices and clever solution for valid braces problem.
+
+### Cheating Solution (Very very clever :))
+
+```php
+function validBraces(string $braces)
+{
+    // Cheating :)
+    $doc = new DOMDocument();
+    try {
+        $doc->loadXML(
+            '<root>' . str_replace(
+                ['{', '}', '[', ']', '(', ')'], 
+                ['<a>', '</a>', '<b>', '</b>', '<i>', '</i>'], 
+                $braces
+            ) . '</root>');
+            
+        return true;
+    } catch (Exception) {
+        return false;
+    }
+}
+```
+
+[Solver's Profile](https://www.codewars.com/users/asedov)
