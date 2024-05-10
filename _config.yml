@@ -23,7 +23,7 @@ title: yazilima dair
 description: >- # this means to ignore newlines until "baseurl:"
   personal blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sgok.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://blog.sgok.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sgokdev
 github_username:  sgok
 
