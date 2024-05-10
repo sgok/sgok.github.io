@@ -1,4 +1,4 @@
 # My Personal Blog
 
-### [blog.sgok.dev](https://blog.sgok.dev)
+### [blog.sgok.dev](http://blog.sgok.dev)
 
