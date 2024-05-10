@@ -1,4 +1,4 @@
-# Personal Blog
+# My Personal Blog
 
-### [sgok.github.io](https://sgok.github.io)
+### [blog.sgok.dev](https://blog.sgok.dev)
 
